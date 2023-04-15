@@ -11,7 +11,7 @@
     }
     else
     {
-        <p class="large">@aboutme.Description</p>
+        @* <p class="large">@aboutme.Description</p>
         <hr />
         <ul style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
         @foreach (var skill in aboutme.Skills)
@@ -20,7 +20,26 @@
         }
         </ul>
         <hr />
-        <p style="padding: 1rem 3rem 0;">@aboutme.DetailOrQuote</p>
+        <p style="padding: 1rem 3rem 0;">@aboutme.DetailOrQuote</p> *@
+
+        <div >            
+            <p>Hi there! I'm <strong>Julian Benedict</strong>, a C# full stack developer with over 8+ years of experience in the industry. I have extensive knowledge of Windows, web, and mobile development, as well as expertise in Microsoft SQL Server and Flutter.</p>
+            <p>Throughout my career, I've had the opportunity to work on a variety of projects, from small-scale applications to large enterprise systems. I'm passionate about using technology to solve real-world problems and improve people's lives.</p>
+            <p>In addition to my technical skills, I also have experience with Git, Azure DevOps, and CI/CD. I believe in the importance of collaboration, communication, and continuous improvement, and I'm always looking for ways to enhance my skills and knowledge.</p>
+            <p>If you're looking for a dedicated, results-driven developer with a proven track record of delivering high-quality solutions, then look no further! Let's connect and see how I can help bring your vision to life.</p>
+            
+            <ul style="text-align: initial">
+                <li >Extensive experience in C# development, including Windows, web, and mobile applications</li>
+                <li>Strong understanding of Microsoft SQL Server and database design</li>
+                <li>Proficiency in Flutter for cross-platform mobile development</li>
+                <li>Knowledge of Git, Azure DevOps, and CI/CD for efficient collaboration and delivery</li>
+                <li>Ability to work effectively in both individual and team environments</li>
+                <li>Proven track record of delivering high-quality solutions on time and within budget</li>
+                <li>Passion for using technology to solve real-world problems and improve people's lives</li>
+            </ul>
+        </div>
+
+
     }
     </div>
 </section>
